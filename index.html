@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Political Beliefs Meter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Political Beliefs Meter</h1>
+      <p>If you didn't know before, you'll know now. Get ready for the holidays.</p>
+      <form id="input">
+        <div id="color-pref">
+          <label>What is your favorite color?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="color" value="red">
+              Red
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="color" value="blue">
+              Blue
+            </label>
+          </div>
+        </div>
+        <div id="gun-pref">
+          <label>Do you favor conceal carry?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="gun" value="yes">
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="gun" value="no">
+              No
+            </label>
+          </div>
+        </div>
+        <div id="choice-pref">
+          <label>Do you support a woman's right to choose?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="choice" value="yes">
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="choice" value="no">
+              No
+            </label>
+          </div>
+        </div>
+        <button class="btn btn-default" type="submit">Submit</button>
+      </form>
+<!-- END FORM -->
+      <div class="results">
+        <div class="progress">
+          <div class="progress-bar progress-bar-danger red-progress" role="progressbar">
+          </div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-info blue-progress" role="progressbar">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
